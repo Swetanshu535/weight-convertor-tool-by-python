@@ -1,0 +1,22 @@
+#weight convertor tool by python
+
+weight= float(input("Enter the weight:"))
+unit= input("kilograms or pounds (k or L):")
+
+if unit == "K":
+    weight= weight * 2.205
+    print(weight)
+elif unit== "L":
+    weight=weight/2.205
+    print(weight)
+else:
+    print("Enter a right unit initials")
+
+
+output
+
+Enter the weight:2
+kilograms or pounds (k or L):K
+4.41
+
+Process finished with exit code 0
